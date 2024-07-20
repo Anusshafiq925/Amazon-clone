@@ -3,7 +3,7 @@
 }
 .listing {
   border: 1px solid rgba(128, 128, 128, 0.2);
-  height: 310px;
+  height: max-content;
   width: max-content;
   background-color: white;
   margin: 10px auto;
@@ -20,7 +20,9 @@ img {
 .content {
   float: right;
   padding: 5px 0px;
-  width: 500px;
+  width: 900px;
+  height: 310px;
+  line-height: 22px;
 }
 
 .stars {
@@ -33,7 +35,6 @@ img {
 }
 
 .price {
-  margin: 300px 0px 0px 0px;
   font-size: xx-large;
 }
 
@@ -60,4 +61,5 @@ p {
 }
 .last a {
   color: green;
+  text-decoration: none;
 }
