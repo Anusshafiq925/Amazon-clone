@@ -5,16 +5,20 @@
   border: 1px solid rgba(128, 128, 128, 0.2);
   height: max-content;
   width: max-content;
-  background-color: white;
+  background-color: whitesmoke;
   margin: 10px auto;
   padding: 0px 5px 0px 0px;
   border-radius: 10px;
 }
 
+.listing:hover {
+  border: 1px solid black;
+}
+
 img {
   height: 300px;
   width: 300px;
-  margin: 5px 0px;
+  margin: 5px;
 }
 
 .content {
@@ -23,6 +27,7 @@ img {
   width: 900px;
   height: 310px;
   line-height: 22px;
+  
 }
 
 .stars {
@@ -46,6 +51,10 @@ img {
   margin-top: 15px;
   border: none;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
 }
 
 p {
